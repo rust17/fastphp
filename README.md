@@ -1,10 +1,6 @@
 # FastPHP
 
 [![Build Status](https://travis-ci.org/yeszao/fastphp.svg?branch=master)](https://travis-ci.org/yeszao/fastphp)
-[![Latest Stable Version](https://poser.pugx.org/yeszao/fastphp/v/stable)](https://packagist.org/packages/yeszao/fastphp)
-[![Total Downloads](https://poser.pugx.org/yeszao/fastphp/downloads)](https://packagist.org/packages/yeszao/fastphp)
-[![Latest Unstable Version](https://poser.pugx.org/yeszao/fastphp/v/unstable)](https://packagist.org/packages/yeszao/fastphp)
-[![License](https://poser.pugx.org/yeszao/fastphp/license)](https://packagist.org/packages/yeszao/fastphp)
 
 ## 简述
 
@@ -18,7 +14,7 @@
 
 ```
 project                 根目录
-├─app                   应用目录
+├─application           应用目录
 │  ├─controllers        控制器目录
 │  ├─models             模块目录
 │  ├─views              视图目录
@@ -30,20 +26,11 @@ project                 根目录
 
 ## 使用
 
-### 1.安装
-主要介绍通过composer和git两种安装方法，选择其一即可。
+### 1.克隆代码
 
-**方法1**：Composer安装（推荐）
 ```
-composer create-project yeszao/fastphp project --no-dev
+git clone https://github.com/yeszao/fastphp.git
 ```
-其中，`--no-dev`表示不安装-dev依赖包（PHPUnit）。
-
-**方法2**：Github安装：
-```
-git clone https://github.com/yeszao/fastphp.git project
-```
-> 说明：这两个命令都会创建并将代码安装到`project`目录。
 
 ### 2. 创建数据库
 
