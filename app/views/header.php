@@ -6,4 +6,4 @@
     <link rel="stylesheet" href="/static/css/layui/css/layui.css" />
 </head>
 <body>
-<?php include('/nav.php') ?>
+<?php include(APP_PATH . 'app/views/nav.php') ?>
