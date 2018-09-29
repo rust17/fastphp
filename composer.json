@@ -1,0 +1,12 @@
+{
+    "name": "zxc/cms",
+    "description": "a content management system",
+    "authors": [
+        {
+            "name": "circle",
+            "email": "newnash@163.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
