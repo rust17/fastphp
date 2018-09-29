@@ -94,8 +94,9 @@ class NewsController extends Controller
 		} else {
 			$data['user_id'] = 1;
 			$data['created_at'] = date('Y-m-d H:i:s');
+			unset($data['id']);
 
-			(new NewsModel)->add($data);
+			$a = (new NewsModel)->add($data);
 			echo "添加成功，<a href='/'>返回首页</a>";
 			return;
 		}
