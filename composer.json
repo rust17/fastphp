@@ -8,5 +8,8 @@
         }
     ],
     "minimum-stability": "beta",
-    "require": {}
+    "require": {
+        "robmorgan/phinx": "^0.10.6",
+        "fzaninotto/faker": "^1.8"
+    }
 }

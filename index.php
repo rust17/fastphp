@@ -11,4 +11,7 @@ require(APP_PATH . 'framework/Kernel.php');
 // 加载配置文件
 $config = require(APP_PATH . 'config/config.php');
 
+// 加载 composer 项目依赖
+require __DIR__ . '/vendor/autoload.php';
+
 (new framework\Kernel($config))->run();
