@@ -4,12 +4,16 @@ namespace app\Controllers;
 
 use framework\base\Controller;
 use app\models\NewsModel;
+use Illuminate\Database\Capsule\Manager as Capsule;
 
 class NewsController extends Controller
 {
 	public function index()
 	{
-		$news = (new NewsModel)->order(['id DESC'])->fetchAll();
+
+		$news = Capsule::table('news')->get();
+
+		// $news = (new NewsModel)->order(['id DESC'])->fetchAll();
 
 		$this->assign('title', '新闻列表');
 		$this->assign('news', $news);

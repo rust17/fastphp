@@ -11,6 +11,7 @@
     "require": {
         "robmorgan/phinx": "^0.10.6",
         "fzaninotto/faker": "^1.8",
-        "illuminate/database": "^5.5"
+        "illuminate/database": "^5.5",
+        "illuminate/events": "^5.5"
     }
 }

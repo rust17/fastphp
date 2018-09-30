@@ -17,7 +17,7 @@
           <li>
             <h2>
               <a class="layui-badge">分享</a>
-              <a href=<?php echo "/news/show/" . $new['id']?>><?php echo $new['news_title']?></a>
+              <a href=<?php echo "/news/show/" . $new->id?>><?php echo $new->news_title?></a>
             </h2>
             <div class="fly-list-info">
               <a href="#" link>
@@ -27,7 +27,7 @@
                 <i class="layui-badge fly-badge-vip">VIP3</i>
                 -->
               </a>
-              <span><?php echo $new['created_at']?></span>
+              <span><?php echo $new->created_at?></span>
               
               <!-- <span class="fly-list-kiss layui-hide-xs" title="悬赏飞吻"><i class="iconfont icon-kiss"></i> 60</span> -->
               <!--<span class="layui-badge fly-badge-accept layui-hide-xs">已结</span>-->

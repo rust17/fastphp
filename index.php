@@ -14,4 +14,7 @@ $config = require(APP_PATH . 'config/config.php');
 // 加载 composer 项目依赖
 require __DIR__ . '/vendor/autoload.php';
 
+// 加载 Eloquent
+require __DIR__ . '/third_part/eloquent.php';
+
 (new framework\Kernel($config))->run();
