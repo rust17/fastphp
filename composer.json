@@ -10,6 +10,7 @@
     "minimum-stability": "beta",
     "require": {
         "robmorgan/phinx": "^0.10.6",
-        "fzaninotto/faker": "^1.8"
+        "fzaninotto/faker": "^1.8",
+        "illuminate/database": "^5.5"
     }
 }
